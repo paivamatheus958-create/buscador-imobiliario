@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    height:100vh;
+    background-image:url("fundo.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.25);
+}
+
+.conteudo{
+    text-align:center;
+    color:white;
+    position:relative;
+    z-index:1;
+}
+
+h1{
+    font-family:"The Seasons", serif;
+    font-size:110px;
+    letter-spacing:2px;
+    font-weight:normal;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+p{
+    max-width:600px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    right: 70px;
+    color: white;
+    z-index: 1;
+}
+
+.rodape span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao-proximo{
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao-proximo:hover{
+    background-color: black;
+    transform: translateX(5px);
+}
+
+.rodape hr{
+    clear: both;
+    margin-top: 15px;
+    border: none;
+    border-top: 2px solid white;
+}
