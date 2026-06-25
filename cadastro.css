@@ -1,80 +1,32 @@
-.hero {
-    height: 100vh;
-    background-image: url("fundologin.jpeg");
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
+.information{
+   font-size : 13px;
+}
+    
+    
+ 
+ input[type="button"]{
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+}
+
+span{
+
+    flex-direction: column;
     align-items: center;
-    position: relative;
-    display: flex;
-
 }
 
-.rodape {
-    position: absolute;
-    bottom: 40px;
-    left: 70px;
-    right: 70px;
-    color: white;
-    z-index: 1;
+.title{
+    margin-top: -600px;
+    margin-left: -1100px;
+position: absolute;
+color: white;
+border-bottom: 3px dashed rgb(255, 255, 255);
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.25);
-}
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.link {
-    color: rgb(214, 34, 34);
-    font-size: 13px;
-
-
-
-
-
-}
-
-.login {
-    text-align: center;
-
-    padding: 30px;
-    border-radius: 10px;
-
-    color: white;
-    width: 300px;
-
-    font-size: 20px;
-
-}
-
-skip {
-    margin-left: 20px;
-}
-
-.cadastro {
-    padding: 10px;
-    border-radius: 10px;
-    position: relative;
-    z-index: 1;
-    color: white;
-    width: 300px;
-    margin-top: 10px;
-    font-size: 10px;
-    margin-left: 100px;
-
-
-
-}
-
-a {
-    color: rgb(214, 34, 34);
-    font-size: 13px;
-
+input{
+    border: none;
+    border-left: 1px dashed black;
+    border-bottom: 1px dashed black;
+    
 }
